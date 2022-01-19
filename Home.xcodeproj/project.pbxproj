@@ -8,17 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		CFDFDC1627974E4A0063A8D1 /* HomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC1527974E4A0063A8D1 /* HomeApp.swift */; };
-		CFDFDC1827974E4A0063A8D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC1727974E4A0063A8D1 /* ContentView.swift */; };
+		CFDFDC1827974E4A0063A8D1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC1727974E4A0063A8D1 /* HomeView.swift */; };
 		CFDFDC1A27974E5D0063A8D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDFDC1927974E5D0063A8D1 /* Assets.xcassets */; };
 		CFDFDC1D27974E5D0063A8D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDFDC1C27974E5D0063A8D1 /* Preview Assets.xcassets */; };
+		CFDFDC2627978B630063A8D1 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC2527978B630063A8D1 /* BalanceView.swift */; };
+		CFDFDC2827978B7E0063A8D1 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC2727978B7E0063A8D1 /* WidgetView.swift */; };
+		CFDFDC2A27978B960063A8D1 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC2927978B960063A8D1 /* CarouselView.swift */; };
+		CFDFDC2C27978BB00063A8D1 /* ShortcutItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC2B27978BB00063A8D1 /* ShortcutItemView.swift */; };
+		CFDFDC2E27978BCA0063A8D1 /* TransactionItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC2D27978BCA0063A8D1 /* TransactionItemView.swift */; };
+		CFDFDC3027978BE20063A8D1 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC2F27978BE20063A8D1 /* TransactionsView.swift */; };
+		CFDFDC3227978BF90063A8D1 /* TransactionServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC3127978BF90063A8D1 /* TransactionServicesView.swift */; };
+		CFDFDC3427978C260063A8D1 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC3327978C260063A8D1 /* ListItemView.swift */; };
+		CFDFDC3627978C3E0063A8D1 /* ServiceItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC3527978C3E0063A8D1 /* ServiceItemView.swift */; };
+		CFDFDC3827978C570063A8D1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC3727978C570063A8D1 /* Colors.swift */; };
+		CFDFDC3B27978D3D0063A8D1 /* ServicesGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC3A27978D3D0063A8D1 /* ServicesGroupView.swift */; };
+		CFDFDC3D27978D510063A8D1 /* TransactionsGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC3C27978D510063A8D1 /* TransactionsGroupView.swift */; };
+		CFDFDC3F27978D6F0063A8D1 /* HeaderGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDC3E27978D6F0063A8D1 /* HeaderGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CFDFDC1227974E4A0063A8D1 /* Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Home.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDFDC1527974E4A0063A8D1 /* HomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApp.swift; sourceTree = "<group>"; };
-		CFDFDC1727974E4A0063A8D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFDFDC1727974E4A0063A8D1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CFDFDC1927974E5D0063A8D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFDFDC1C27974E5D0063A8D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFDFDC2527978B630063A8D1 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		CFDFDC2727978B7E0063A8D1 /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
+		CFDFDC2927978B960063A8D1 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		CFDFDC2B27978BB00063A8D1 /* ShortcutItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutItemView.swift; sourceTree = "<group>"; };
+		CFDFDC2D27978BCA0063A8D1 /* TransactionItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemView.swift; sourceTree = "<group>"; };
+		CFDFDC2F27978BE20063A8D1 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		CFDFDC3127978BF90063A8D1 /* TransactionServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionServicesView.swift; sourceTree = "<group>"; };
+		CFDFDC3327978C260063A8D1 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		CFDFDC3527978C3E0063A8D1 /* ServiceItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceItemView.swift; sourceTree = "<group>"; };
+		CFDFDC3727978C570063A8D1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CFDFDC3A27978D3D0063A8D1 /* ServicesGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesGroupView.swift; sourceTree = "<group>"; };
+		CFDFDC3C27978D510063A8D1 /* TransactionsGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsGroupView.swift; sourceTree = "<group>"; };
+		CFDFDC3E27978D6F0063A8D1 /* HeaderGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +78,18 @@
 			isa = PBXGroup;
 			children = (
 				CFDFDC1527974E4A0063A8D1 /* HomeApp.swift */,
-				CFDFDC1727974E4A0063A8D1 /* ContentView.swift */,
+				CFDFDC1727974E4A0063A8D1 /* HomeView.swift */,
+				CFDFDC3927978D280063A8D1 /* Groups */,
+				CFDFDC3527978C3E0063A8D1 /* ServiceItemView.swift */,
+				CFDFDC3327978C260063A8D1 /* ListItemView.swift */,
+				CFDFDC2D27978BCA0063A8D1 /* TransactionItemView.swift */,
+				CFDFDC3127978BF90063A8D1 /* TransactionServicesView.swift */,
+				CFDFDC2F27978BE20063A8D1 /* TransactionsView.swift */,
+				CFDFDC2B27978BB00063A8D1 /* ShortcutItemView.swift */,
+				CFDFDC2927978B960063A8D1 /* CarouselView.swift */,
+				CFDFDC2727978B7E0063A8D1 /* WidgetView.swift */,
+				CFDFDC2527978B630063A8D1 /* BalanceView.swift */,
+				CFDFDC3727978C570063A8D1 /* Colors.swift */,
 				CFDFDC1927974E5D0063A8D1 /* Assets.xcassets */,
 				CFDFDC1B27974E5D0063A8D1 /* Preview Content */,
 			);
@@ -65,6 +102,16 @@
 				CFDFDC1C27974E5D0063A8D1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFDFDC3927978D280063A8D1 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				CFDFDC3E27978D6F0063A8D1 /* HeaderGroupView.swift */,
+				CFDFDC3A27978D3D0063A8D1 /* ServicesGroupView.swift */,
+				CFDFDC3C27978D510063A8D1 /* TransactionsGroupView.swift */,
+			);
+			path = Groups;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +184,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFDFDC1827974E4A0063A8D1 /* ContentView.swift in Sources */,
+				CFDFDC2A27978B960063A8D1 /* CarouselView.swift in Sources */,
+				CFDFDC3827978C570063A8D1 /* Colors.swift in Sources */,
+				CFDFDC2C27978BB00063A8D1 /* ShortcutItemView.swift in Sources */,
+				CFDFDC3227978BF90063A8D1 /* TransactionServicesView.swift in Sources */,
+				CFDFDC2E27978BCA0063A8D1 /* TransactionItemView.swift in Sources */,
+				CFDFDC3627978C3E0063A8D1 /* ServiceItemView.swift in Sources */,
+				CFDFDC2627978B630063A8D1 /* BalanceView.swift in Sources */,
+				CFDFDC3427978C260063A8D1 /* ListItemView.swift in Sources */,
+				CFDFDC3B27978D3D0063A8D1 /* ServicesGroupView.swift in Sources */,
+				CFDFDC1827974E4A0063A8D1 /* HomeView.swift in Sources */,
+				CFDFDC3027978BE20063A8D1 /* TransactionsView.swift in Sources */,
+				CFDFDC2827978B7E0063A8D1 /* WidgetView.swift in Sources */,
+				CFDFDC3F27978D6F0063A8D1 /* HeaderGroupView.swift in Sources */,
 				CFDFDC1627974E4A0063A8D1 /* HomeApp.swift in Sources */,
+				CFDFDC3D27978D510063A8D1 /* TransactionsGroupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
